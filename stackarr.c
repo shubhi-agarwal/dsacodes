@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include <stdlib.h>
 #define MAXSIZE 5
 
 struct stack /* Structure definition for stack */
@@ -22,7 +22,6 @@ void main ()
 int choice;
 int option = 1;
 
-clrscr ();
 
 s.top = -1;
 
